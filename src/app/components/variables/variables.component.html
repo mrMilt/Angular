@@ -1,0 +1,8 @@
+<div>
+  <p>
+    {{nombre | uppercase}}
+    {{nota + 100}}
+  </p>  
+  <button class="btn btn-primary" (click)="cambiar_nombre()">Cambiar nombre</button>
+  <input type="text" class="form-control" placeholder="Escriba un nombre" [(ngModel)]="nombre">
+</div>
